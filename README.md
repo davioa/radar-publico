@@ -102,6 +102,45 @@ radar-publico/
 
 ---
 
+## Como Executar
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/davioa/radar-publico.git
+cd radar-publico
+```
+
+### Crie um ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
+source venv/bin/activate
+```
+
+### Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### Execute o projeto
+
+```bash
+python src/analisar_governo.py
+```
+
 ## Exemplo de Aplicação
 
 O sistema pode ser utilizado para:
